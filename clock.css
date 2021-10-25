@@ -1,0 +1,68 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Seaweed+Script&display=swap');
+body{
+    margin: 0px;
+    padding: 0px;
+    /* width: 100vw; */
+    background-color: #352f44;
+}
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}    
+.container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    /* font-family: 'Comfortaa', cursive; */
+    color: #dbd8e3;
+
+}
+.navbar{
+    position: relative;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    background-color: #2a2438;
+    padding: 20px;
+    color: #dbd8e3;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 800;
+} 
+#time{
+    font-size: 190px;
+    font-family: 'Rampart One', cursive;
+}
+#date{
+    font-size: 60px;
+    font-family: 'Fugaz One', cursive;
+    letter-spacing: 10px;
+}
+.time{
+    padding-left: 100px;
+    font-size: 30px;
+}
+.time_container{
+    margin-top: 145px;
+}
+.date_container{
+    margin-top: -30px;
+}
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+.author{
+    font-family: 'Seaweed Script', cursive;
+    font-weight: 100;
+    font-size: 15px;
+}
